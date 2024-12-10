@@ -1,7 +1,13 @@
 import React from "react";
 import "./navbarCss.css";
+import { useNavigate } from "react-router-dom";
 
 function NavbarCompo() {
+  const navigate = useNavigate();
+  const handleClick = () => {
+    localStorage.clear()
+    navigate('/signin');
+  }
   return (
     <>
       <nav className="navbar">
@@ -19,6 +25,7 @@ function NavbarCompo() {
             <a href="#contact">Contact</a>
           </li>
         </ul>
+        <button onClick={handleClick}>Logout</button>
       </nav>
     </>
   );
