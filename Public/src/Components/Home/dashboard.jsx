@@ -1,5 +1,5 @@
 import React from "react";
-import "../../Css/Home.css";
+import "../../Css/home.css";
 
 function Dashboard() {
   return (

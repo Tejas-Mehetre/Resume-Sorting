@@ -1,6 +1,6 @@
 import React from 'react'
 import img from '../../assets/contactimg.png'
-import '../../Css/Home.css'
+import '../../Css/home.css'
 
 function Contact() {
   return (

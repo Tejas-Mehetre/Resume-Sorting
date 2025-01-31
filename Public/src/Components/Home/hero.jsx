@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../../assets/logo.png";
-import "../../Css/Home.css";
+import "../../Css/home.css";
 
 function FirstCompo() {
   return (

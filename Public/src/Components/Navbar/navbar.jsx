@@ -1,5 +1,5 @@
 import React from "react";
-import "./navbarCss.css";
+import "../../Css/navbar.css";
 import { useNavigate } from "react-router-dom";
 
 function NavbarCompo() {

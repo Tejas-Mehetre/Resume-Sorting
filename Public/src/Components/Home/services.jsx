@@ -6,7 +6,7 @@ import {
   jdUploadRoute,
 } from "../../Utils/apiroutes";
 import { useNavigate } from "react-router-dom";
-import "../../Css/Home.css";
+import "../../Css/home.css";
 import { Spinner } from "flowbite-react";
 
 function Services() {

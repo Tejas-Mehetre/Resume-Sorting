@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
-import NavbarCompo from "../Components/Navbar/NavbarCompo";
-import FirstCompo from "./Home/FirstCompo";
-import Dashboard from "./Home/Dashboard";
-import Contact from "./Home/Contact";
-import Services from "./Home/Services";
-import "../Css/Home.css";
+import Navbar from "../Components/Navbar/navbar";
+import FirstCompo from "../Components/Home/hero";
+import Dashboard from "../Components/Home/dashboard";
+import Contact from "../Components/Home/contact";
+import Services from "../Components/Home/services";
+import "../Css/home.css";
 import { useNavigate } from "react-router-dom";
 
 function HomePage() {
@@ -18,7 +18,7 @@ function HomePage() {
   
   return (
     <>
-      <NavbarCompo />
+      <Navbar />
       <div className="scrollable">
         <section id="home" className="section">
           <FirstCompo />
